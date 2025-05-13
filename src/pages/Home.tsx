@@ -19,11 +19,7 @@ export default function Home() {
   return (
     <div style={styles.wrapper}>
       <div style={styles.container}>
-        <header>
-          <ModeToggle/>
-        </header>
-
-        <h1 style={styles.title}>{t('home.title')}</h1>
+        <h1 style={styles.title}>{t('home.title')} <ModeToggle/></h1>
         <p style={styles.description}>{t('home.description')}</p>
 
         <div style={styles.languageSwitcher}>
