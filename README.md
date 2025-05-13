@@ -1,6 +1,7 @@
-# React + Vite + TypeScript + Zustand + i18next Template
+# React + Vite + TypeScript + Zustand + Tailwind CSS + shadcn/ui Template
 
-A ready-to-use, opinionated template for React projects using Vite. Includes TypeScript, Zustand for state management, i18next for internationalization, and a powerful toolset for testing and code quality.
+A ready-to-use, opinionated template for React projects using Vite.  
+Based on [react-vite-ts-zustand](https://github.com/tintiz00rd/react-vite-ts-zustand), with the addition of Tailwind CSS and [shadcn/ui](https://ui.shadcn.dev/) for modern UI development.
 
 ---
 
@@ -11,6 +12,8 @@ A ready-to-use, opinionated template for React projects using Vite. Includes Typ
 - [TypeScript 5.8](https://www.typescriptlang.org/)
 - [Zustand 5](https://github.com/pmndrs/zustand) – State management
 - [i18next](https://www.i18next.com/) + [react-i18next](https://react.i18next.com/) – Internationalization
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
+- [shadcn/ui](https://ui.shadcn.dev/) – Reusable accessible UI components
 - [ESLint 9](https://eslint.org/) – Linting
 - [Prettier 3](https://prettier.io/) – Code formatting
 - [Vitest 3](https://vitest.dev/) – Unit testing
@@ -70,5 +73,3 @@ Contact: [angelo.tinti@gmail.com](mailto:angelo.tinti@gmail.com)
 ## 📄 License
 
 This project is licensed under the [MIT](./LICENSE).
-
----
