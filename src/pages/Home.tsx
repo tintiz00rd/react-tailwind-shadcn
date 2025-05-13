@@ -1,6 +1,8 @@
 import './Home.css';
 import { useTranslation } from 'react-i18next';
 import { useCounterStore } from '../store/counter';
+import { Button } from "@/components/ui/button"
+import { ModeToggle } from '@/components/mode-toggle';
 
 export default function Home() {
     const count = useCounterStore((state) => state.count);
@@ -17,21 +19,25 @@ export default function Home() {
   return (
     <div style={styles.wrapper}>
       <div style={styles.container}>
+        <header>
+          <ModeToggle/>
+        </header>
+
         <h1 style={styles.title}>{t('home.title')}</h1>
         <p style={styles.description}>{t('home.description')}</p>
 
         <div style={styles.languageSwitcher}>
-          <button onClick={() => switchLanguage('pt')}>🇧🇷 Português</button>
-          <button onClick={() => switchLanguage('en')}>🇺🇸 English</button>
+          <Button onClick={() => switchLanguage('pt')}>🇧🇷 Português</Button>
+          <Button onClick={() => switchLanguage('en')}>🇺🇸 English</Button>
         </div>
 
         <div>
           <h2>{t('home.zustand.title')}</h2>
           <h3>{count}</h3>
           <div style={styles.zustandCounter}>
-            <button onClick={decrement}>-</button>
-            <button onClick={reset}>{t('home.zustand.reset')}</button>
-            <button onClick={increment}>+</button>
+            <Button onClick={decrement}>-</Button>
+            <Button onClick={reset}>{t('home.zustand.reset')}</Button>
+            <Button onClick={increment}>+</Button>
           </div>
         </div>
 

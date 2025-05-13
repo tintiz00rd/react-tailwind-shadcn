@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Welcome to my React + Vite + TS + Zustand Template",
-    "description": "This is a base project with internationalization support using i18next.",
+    "title": "Welcome to my React + Tailwind + Shadcn Template",
+    "description": "Check GitHub's project repository for more information.",
     "footer": "Template created by Angelo Gabrielli 'tintiz00rd' Tinti",
 		"zustand": {
 			"title": "Zustand Counter",
