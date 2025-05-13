@@ -1,3 +1,4 @@
+import './Home.css';
 import { useTranslation } from 'react-i18next';
 import { useCounterStore } from '../store/counter';
 
